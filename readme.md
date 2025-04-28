@@ -1,4 +1,4 @@
-
+ 
 ### Vacuum Wars Top 20 extract
 
 The script scrapes the data from [Vacuum Wars Top 20 robots](https://vacuumwars.com/best-vacuum-cleaners/robot-vacuums/) and puts it to Excel file for easier comparison.
