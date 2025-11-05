@@ -9,7 +9,7 @@ UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like 
 def get_html():
     url = 'https://vacuumwars.com/best-vacuum-cleaners/robot-vacuums/'
     headers = {'User-Agent': UA}
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers, timeout=10)
     
     if response.status_code == 200:
         return response.content

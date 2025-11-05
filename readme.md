@@ -13,8 +13,22 @@ Prettified export (done manually):
 ### Installation
 
 1. Clone this project  
-2. Install required packages  
-`pip install -r .\requirements.txt`
+2. Make sure you have Python 3.11 installed
+3. Install required packages into venv on Linux:
+```sh
+python3.11 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
+Same thing on Windows:
+```bat
+python -m venv env
+call env\Scripts\activate.bat
+pip install -r requirements.txt
+```
+Without venv:
+`pip install -r requirements.txt`
+
 
 ### Usage
 `python extract_vw.py`
